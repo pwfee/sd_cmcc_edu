@@ -1,14 +1,17 @@
-#山东CMCC-EDU一键登录脚本（可绕过白名单）
+#CMCC-EDU绕过白名单登录脚本
 
-#安装
-安装requests库
+###安装
+requests库
 pip install --user requests
 
-#使用
-更改username、password（一键登录）
-登录信息储存在
-/home/vinson/.cmcc_info.json（更改）
-登录
+###使用
+1.更改sd_cmcc_edu.py里面的username和password
+
+2.登录的信息save到path
+更改/home/vinson/.cmcc_info.json(default)
+
+3.登录
 python cmcc_edu.py login
-注销
+
+4.注销
 python cmcc_edu.py logout
