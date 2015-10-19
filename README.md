@@ -1,5 +1,9 @@
 #CMCC-EDU绕过白名单登录脚本
 
+####update:
+2015-10-19 山东亲测可用
+通过UA=G3WLAN模拟随E行客户端实现绕过白名单
+
 ###安装
 requests库
 pip install --user requests
@@ -15,3 +19,6 @@ python cmcc_edu.py login
 
 4.注销
 python cmcc_edu.py logout
+
+
+
