@@ -18,7 +18,7 @@ clienttype='UE,Android,8.4.0.002'
 ssid='CMCC-EDU'
 LOGIN='LOGIN'  
 LOGOUT='LOGOUT'  
-portalurl='https://211.137.185.106:8443/g3wlan.do' # G3WLAN_Portal
+portalurl='https://cmcc.sd.chinamobile.com:8443/g3wlan.do' # G3WLAN_Portal
 def get_info(site=baidu):
     r = requests.get(site, verify=False)
     url = r.url
