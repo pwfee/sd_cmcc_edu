@@ -5,6 +5,7 @@ import requests
 headers = {'Accept-Charset': 'gb2312','Content-Type': 'application/x-www-form-urlencoded','User-Agent': 'G3WLAN','Host': '211.137.185.106:8443','Connection': 'Keep-Alive','Accept-Encoding': 'gzip','Content-Length': '390'}
 import json
 import re
+import sys
 
 baidu = 'http://www.baidu.com/'
 # change this to file you want to save login info
